@@ -1,0 +1,38 @@
+
+/* Dashboard.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .plot-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .plot-container {
+      width: 100%;
+    }
+  }
+  
+  .plotly {
+    width: 100% !important;
+    height: 100% !important;
+  }
+    
